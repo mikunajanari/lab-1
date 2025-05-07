@@ -56,5 +56,41 @@
   ![image](https://github.com/user-attachments/assets/48afc60b-2b79-4dbd-937d-78b27a374c05)
 
 ## 3. Композитні типи
+  Оголосимо об'єднаний тип та реалізуємо функцію, яка виводить повідомлення відповідно до значення Status.
+
+  ![image](https://github.com/user-attachments/assets/fab42fad-08ed-4f89-9833-8bbba151fd49)
+
+  ### .JS
+  У .JS файлі не видно типу Status, бо типи існують лише під час розробки в TypeScript і не входять до зібраного коду.
+  
+  ![image](https://github.com/user-attachments/assets/b87ce315-93f8-4eaf-8ee0-3a7b4021143c)
+
+  ### .D.TS
+  
+  ![image](https://github.com/user-attachments/assets/af42f3d5-ca1f-49dc-80c1-d34aea85d6e8)
+
+  ### Logs
+  
+  ![image](https://github.com/user-attachments/assets/e2e41643-dc5e-4dff-b646-26f3a843ce5c)
+  
+  ### Errors
+  У вкладці Errors пусто. Зробимо помилку навмисно - передамо значення, відсутнє у типі Status.
+
+  ![image](https://github.com/user-attachments/assets/c0498926-d828-4678-81f6-da6653dab763)
+
+## 4. Дженерики
+  Реалізуємо функцію, яка повертає передане їй значення. Виконаємо її для типів number, string та boolean.
+  
+
+  ### .JS
+  
+
+  ### .D.TS
+  
+
+  ### Logs
+  
+  
+  ### Errors
 
 
