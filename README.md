@@ -7,7 +7,7 @@
   ![image](https://github.com/user-attachments/assets/f40e3b35-1733-48b4-90da-ea13b63543ff)
 
   ### .JS
-  Код успішно трансформовано в коректний JavaScript. Типи зникають після компіляції (типізація лише для етапу розробки). use strict — забезпечує суворий режим (безпечніший синтаксис JS).
+  Код успішно трансформовано в коректний JavaScript. Типи зникають після компіляції (типізація лише для етапу розробки). use strict - забезпечує суворий режим (безпечніший синтаксис JS).
 
   ![image](https://github.com/user-attachments/assets/cde86371-d350-44af-8d03-07fb97b460e2)
 
@@ -26,4 +26,31 @@
   
   ![image](https://github.com/user-attachments/assets/a891fdcc-c3a5-4aa6-93d2-c368127942cd)
 
+## 2. Інтерфейси
+  Оголосимо інтерфейс Person з полями name, age, address. Реалізуємо функцію printPerson, яка приймає об'єкт типу Person та виводить його дані у консоль.
+
+  ![image](https://github.com/user-attachments/assets/67b0f00d-7f2f-4181-a0ce-19c6808ca880)
+
+  ### .JS
+  JavaScript не підтримує статичну типізацію, тому можемо створювати об'єкти без визначення типів, і JavaScript самостійно визначатиме типи на основі значень.
+  ![image](https://github.com/user-attachments/assets/fe3b5d72-df8d-48a1-84f9-989de0b41daf)
+
+  ### .D.TS
+  ![image](https://github.com/user-attachments/assets/b77d27ee-87d4-4e63-ad16-edf7e4dba14c)
+
+  ### Logs
+  З вказаною адресою:
+  ![image](https://github.com/user-attachments/assets/ec36ed4a-7d80-4f55-be4a-e333c10078d0)
+
+  Без вказаної адреси:
+  ![image](https://github.com/user-attachments/assets/90ebc9ea-6f42-41cf-aa89-4ae71ffcaea8)
+
   
+  ### Errors
+  У вкладці Errors пусто. Зробимо помилку навмисно - створимо об'єкт user без властивості age.
+  
+  ![image](https://github.com/user-attachments/assets/48afc60b-2b79-4dbd-937d-78b27a374c05)
+
+## 3. Композитні типи
+
+
