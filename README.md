@@ -81,16 +81,26 @@
 ## 4. Дженерики
   Реалізуємо функцію, яка повертає передане їй значення. Виконаємо її для типів number, string та boolean.
   
+  ![image](https://github.com/user-attachments/assets/417d0ee3-5cc2-4312-9eed-61a1ce65322b)
 
   ### .JS
-  
+  JavaScript не має статичної типізації, тому немає типів або дженериків. Функція приймає будь-яке значення, і компілятор не перевіряє правильність типу.
+  ![image](https://github.com/user-attachments/assets/d0f4b087-33e3-4e13-9e2e-c4b8d4aac591)
 
   ### .D.TS
   
+  ![image](https://github.com/user-attachments/assets/58955185-3eab-4172-856d-e609c148d776)
 
   ### Logs
   
-  
+  ![image](https://github.com/user-attachments/assets/59274bcd-d9e3-4607-a987-9573a94d64e6)
+
   ### Errors
+  У вкладці Errors пусто. Зробимо помилку навмисно - передамо значення типу string туди, де очікується number.
+
+  ![image](https://github.com/user-attachments/assets/7bd9a860-8823-44fb-8298-62fca53825dd)
+
+## 5. Класи
+  Реалізуємо клас Car з полями model, year та додамо метод getCarInfo(), який повертає рядок виду: "Model: Toyota, Year: 2020".
 
 
