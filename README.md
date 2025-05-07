@@ -85,6 +85,7 @@
 
   ### .JS
   JavaScript не має статичної типізації, тому немає типів або дженериків. Функція приймає будь-яке значення, і компілятор не перевіряє правильність типу.
+  
   ![image](https://github.com/user-attachments/assets/d0f4b087-33e3-4e13-9e2e-c4b8d4aac591)
 
   ### .D.TS
@@ -103,4 +104,22 @@
 ## 5. Класи
   Реалізуємо клас Car з полями model, year та додамо метод getCarInfo(), який повертає рядок виду: "Model: Toyota, Year: 2020".
 
+  ![image](https://github.com/user-attachments/assets/eb578f89-f20d-45ec-9bc8-e3bd75ccf5d2)
 
+  ### .JS
+  У JavaScript немає типів, тому model і year не мають жодних обмежень.
+  
+  ![image](https://github.com/user-attachments/assets/78eaaadc-df83-4fd6-8180-ab4ede228c70)
+
+  ### .D.TS
+  
+  ![image](https://github.com/user-attachments/assets/2fb259f7-a353-4a7f-a22b-23852fe109ce)
+
+  ### Logs
+  
+  ![image](https://github.com/user-attachments/assets/e6f20754-3e8e-4325-b169-4ae1037f39f8)
+
+  ### Errors
+  У вкладці Errors пусто. Зробимо помилку навмисно - передамо значення типу number в перший аргумент, де очікується string.
+
+  ![image](https://github.com/user-attachments/assets/ecafb570-a8e7-44f4-9d61-3e9618747c9c)
