@@ -33,16 +33,20 @@
 
   ### .JS
   JavaScript не підтримує статичну типізацію, тому можемо створювати об'єкти без визначення типів, і JavaScript самостійно визначатиме типи на основі значень.
+  
   ![image](https://github.com/user-attachments/assets/fe3b5d72-df8d-48a1-84f9-989de0b41daf)
 
   ### .D.TS
+  
   ![image](https://github.com/user-attachments/assets/b77d27ee-87d4-4e63-ad16-edf7e4dba14c)
 
   ### Logs
   З вказаною адресою:
+  
   ![image](https://github.com/user-attachments/assets/ec36ed4a-7d80-4f55-be4a-e333c10078d0)
 
   Без вказаної адреси:
+  
   ![image](https://github.com/user-attachments/assets/90ebc9ea-6f42-41cf-aa89-4ae71ffcaea8)
 
   
